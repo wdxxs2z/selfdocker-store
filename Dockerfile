@@ -11,4 +11,4 @@ ADD java-hello-world.war /tomcat/webapps/hello.war
 RUN chmod +x /*.sh
 
 EXPOSE 8080
-CMD ["/run.sh"]
+#CMD ["/run.sh"]
