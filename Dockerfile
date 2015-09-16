@@ -22,7 +22,7 @@ ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
 #deploy our war
-ADD java-hello-world.war /tomcat/webapps/hello.war
+#ADD java-hello-world.war /tomcat/webapps/hello.war
 
 EXPOSE 8080
-CMD ["/run.sh -D"]
+CMD ["/run.sh"]
